@@ -5,9 +5,10 @@ Sanaz Bahargam, Evangelos Papalexakis, "**Discovering Time-Evolving Topics of Va
 
 
 ## Requirements
-This code depends on the TensorToolbox which is available at:
+This code depends on 
+* TensorToolbox which is available at:
            http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.5.html
-       and Tensor lab at:
+*       and Tensor lab at:
            URL: http://www.tensorlab.net
-      and CVX Solver at:
+*      and CVX Solver at:
            http://cvxr.com/cvx/

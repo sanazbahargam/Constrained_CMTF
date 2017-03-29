@@ -1,5 +1,5 @@
 function [FacA, FacB, FacC, FacD, core] = Constrained_CMTF(tensor, matrix, dimensions,  opts)
-%% Constrained oupled_Matrix Tensor Factorization
+%% Constrained coupled_Matrix Tensor Factorization
 %   Usage: [FacA, FacB, FacC, FacD, core] = Con_CMTF(tensor, dimensions, matrix, opt);
 %   Output: FacA, FacB, FacC, FacD are the factor matrices and Core is the core tensor
 %   opts.

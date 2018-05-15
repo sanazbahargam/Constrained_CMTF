@@ -12,7 +12,7 @@ function [x] = cvx_solve(X, A, B, epsilon_sparsity, epsilon_orthogonality, i, mo
 %   by Sanaz Bahargam
 %       http://cs-people.b.edu/bahargam/
 %       E-mail:bahargam@gmail.com or bahargam@bu.edu
-%       Last updated: February-14, 2017
+%       
 
 x = [];
 

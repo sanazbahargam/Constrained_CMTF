@@ -1,7 +1,7 @@
 function [x] = cvx_solve(X, A, B, epsilon_sparsity, epsilon_orthogonality, i, mode)
 %% solves a convex optimzation
 % input X*A - B, only solving for the ith column of X
-%   Usage: [x] = cvx_solve(X, A, B, epsilon_sparsity, epsilon_orthogonality, i, mode)
+%  Usage: [x] = cvx_solve(X, A, B, epsilon_sparsity, epsilon_orthogonality, i, mode)
 %  Output: x which is the ith column of X
 %   if mode == 'factors', it solves the following program
 %    X * A - B
@@ -9,10 +9,6 @@ function [x] = cvx_solve(X, A, B, epsilon_sparsity, epsilon_orthogonality, i, mo
 %   A * X - B
 %   This code depends on CVX Solver which is available at:
 %          http://cvxr.com/cvx/
-%   by Sanaz Bahargam
-%       http://cs-people.b.edu/bahargam/
-%       E-mail:bahargam@gmail.com or bahargam@bu.edu
-%       
 
 x = [];
 
@@ -37,6 +33,3 @@ if strcmp(mode, 'Core')
         norm(x, 1)  <= epsilon_sparsity
     cvx_end
 end
-
-
-
